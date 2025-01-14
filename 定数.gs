@@ -5,7 +5,8 @@ const scriptProperties = PropertiesService.getScriptProperties();
 const SPREADSHEET = getSpreadsheet();
 
 // シート名
-const SHEET_NAME_ORIGINAL = "通知一覧";
+// const SHEET_NAME_ORIGINAL = "通知一覧";
+const SHEET_NAME_ORIGINAL = "テスト用通知一覧";
 const SHEET_NAME_TODAY_TARGET = "本日対応通知一覧";
 const SHEET_NAME_WEBHOOK = "webhook一覧";
 const SHEET_NAME_USER_ID = "ユーザーID";
